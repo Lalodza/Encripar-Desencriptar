@@ -1,0 +1,81 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Mochiy+Pop+P+One&display=swap');
+/* 
+font-family: 'Dongle', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif;
+*/
+
+
+body {
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    background-image: url('../img/memphis-mini.png');
+}
+
+.title{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.subtitle{
+    font-size: 2rem;
+}
+
+.main{
+    height: 50vh;  
+    display: flex;     
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50 auto;
+}
+
+.botones{
+    display: block;
+    margin: 0;
+    align-content: flex-start;
+}
+
+.button{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-decoration:none;
+    font-weight: inherit;
+    font-size: 10px;
+    color:#000000;
+    padding-top:11px;
+    padding-bottom:11px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 35px 10px;
+}
+
+.button:hover{
+    background-color: #828383;
+}
+
+input{
+    border: none;
+    width: 400px;
+    height: 120px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: #a8a8a88a;
+    border-radius: 20px;
+    text-align: unset;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 20px;
+}
